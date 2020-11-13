@@ -20,13 +20,229 @@ float:left;
 .float-right{
   float:right;
 }
-/* /general rules */
-header{
-  background-color:grey;
+.btn-orange{
+  color:white;
+  background-color:rgb(236, 73, 21);
+  padding:10px 15px;
+  border-radius: 5px;
 }
+.btn{
+  background-color: white;
+  color:rgb(236, 73, 21);
+  border:1px solid rgb(236, 73, 21);
+  padding:10px 15px;
+  border-radius: 5px;
+}
+.btn-transparent{
+  border-right: 1px solid black;
+  padding:10px;
+}
+a{
+  padding-left:5px;
+  text-decoration:none;
+}
+li{
+  display:inline-block;
+
+  }
+  ul{
+    list-style: none;
+  }
+
+/* /general rules */
+
+.header-top-container{
+  background: red;
+  width: 100%;
+}
+.header-middle{
+  background-color:#fdf6ee;
+  width:100%;
+}
+
 .container{
-  background-color: yellow;
+  background-color:red;
   width: 70%;
-  height:800px;
   margin:auto;
+  position:relative;
+}
+
+/* sfondo */
+.jumbotron{
+  background-image: url('../img/jumbotron.png');
+  width: 100%;
+  height:700px;
+  background-position:right top;
+  background-repeat: no-repeat;
+  position: relative;
+  box-shadow: inset 0 5px 8px rgba(0,0,0,0.3);
+
+}
+/* aggiunta della barra sottostante allo sfondo jumbotron */
+.jumbotron::before{
+  background-color:rgb(37, 184, 131);
+  width: 100%;
+  height: 90px;
+  border-top:2px solid black;
+  border-bottom:2px solid black;
+  content: '';
+  display: block;
+  position: absolute;
+  bottom:0;
+  left:0;
+  }
+/* altrimenti si poteva creare un div nell'html */
+
+/* barra fissa */
+.box-fixed{
+  height:70px;
+  width: 100%;
+  background-color:rgb(179, 213, 230);
+  padding-bottom:0px;
+  position:fixed;
+  top:0;
+  left: 0;
+  z-index:1;
+}
+.box-fixed li{
+  line-height: 70px;
+}
+.header-fixed-left a{
+  color:black;
+}
+
+/* barra top header */
+.top-header{
+  height:150px;
+  width: 100%;
+  padding-top: 40px;
+  background-color:white;
+}
+
+.nav a{
+  color:black;
+}
+
+.nav li{
+  font-size:20px;
+  line-height: 100px;
+  padding-left: 30px;
+}
+
+.logo img{
+padding:40px 15px;
+
+}
+
+
+/* background-image: url('../img/jumbotron.png');
+background-size:50%;
+background-repeat:no-repeat;
+position:absolute;
+bottom:0;
+right:0; */
+
+/* blocco sinistra dello sfondo */
+
+.grow{
+  width:30%;
+  position:absolute;
+  top:70px;
+  left:0;
+}
+h1{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 40px;
+  font-weight: bold;
+}
+
+.grow-test{
+  font-size: 15px;
+  margin:50px 0;
+
+}
+.btn-grow{
+  width:150px;
+  padding:20px 15px;
+}
+.btn-orange a{
+
+  color:white;
+
+}
+.header-jumbotron{
+  width: 100%;
+  position: relative;
+}
+
+.main-container{
+  background-color: rgb(212, 235, 241);
+  height:1000px;
+  width: 100%;
+}
+/* inizio powerful contained */
+.powerful-contained{
+  background-color:blue;
+  height: 300px;
+  width:800px;
+  margin:auto;
+
+  position: relative;
+}
+.powerful-contained img{
+  width: 30%;
+  position: absolute;
+  top:0;
+  left:50%;
+  transform:translateX(-50%);
+  padding-top:30px;
+}
+
+.titolo-powerful{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 30px;
+  color:black;
+  text-align: center;
+  padding-top:25%;
+  padding-bottom:20px;
+}
+
+.testo-powerful{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 20px;
+  color:black;
+  text-align: center;
+  padding-top: 10px;
+}
+
+/* fine powerful contained */
+
+.free-contained{
+  background-color:yellow;
+  height: 300px;
+  width:800px;
+  margin:auto;
+  margin-top: 70px;
+
+}
+
+.col-img{
+  width: 40%;
+  height: 80%;
+  background-color: red;
+  position: relative;
+}
+
+.col-free-hubspot{
+  width: 60%;
+  height:80%;
+  background-color:green;
+}
+
+.col-img img{
+  width:50%;
+  position: absolute;
+  top:0;
+  left:50%;
+  transform:translateX(-50%);
 }
