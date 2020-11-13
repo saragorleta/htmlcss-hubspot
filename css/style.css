@@ -246,3 +246,21 @@ h1{
   left:50%;
   transform:translateX(-50%);
 }
+.top-header{
+  height:50px;
+  width: 100%;
+  background-color: pink;
+
+}
+.central-header{
+  height: 600px;
+  width: 100%;
+  background-color: white;
+
+}
+.bottom-header{
+  height:150px;
+  width: 100%;
+  background-color:lightblue;
+
+}
