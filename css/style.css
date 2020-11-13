@@ -182,7 +182,7 @@ h1{
 }
 /* inizio powerful contained */
 .powerful-contained{
-  background-color:blue;
+  /* background-color:blue; */
   height: 300px;
   width:800px;
   margin:auto;
@@ -200,10 +200,10 @@ h1{
 
 .titolo-powerful{
   font-family: 'Montserrat', sans-serif;
-  font-size: 30px;
+  font-size: 25px;
   color:black;
   text-align: center;
-  padding-top:25%;
+  padding-top:28%;
   padding-bottom:20px;
 }
 
@@ -212,7 +212,7 @@ h1{
   font-size: 20px;
   color:black;
   text-align: center;
-  padding-top: 10px;
+  padding-top:5px;
 }
 
 /* fine powerful contained */
@@ -220,24 +220,20 @@ h1{
 /* inizio free contained */
 
 .free-contained{
-  background-color:yellow;
+  background-color:white;
   height: 300px;
   width:800px;
   margin:auto;
   margin-top: 70px;
+
 }
 
 .col-img{
   width: 40%;
   height: 80%;
   background-color: red;
+  margin: 30px 0;
   position: relative;
-}
-
-.col-free-hubspot{
-  width:20%;
-  height:80%;
-  background-color:green;
 }
 
 .col-img img{
@@ -248,14 +244,27 @@ h1{
   transform:translateX(-50%);
 }
 
-.btn-learn{
-
-}
 .col-img a{
   position: absolute;
   top:60%;
   left:50%;
   transform:translate(-50%, -50%);
+}
 
+.col-free-hubspot{
+  width:60%;
+  height:80%;
+  background-color:green;
+  margin: 30px 0;
+}
 
+.titolo-free-hubspot h4{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 40px;
+  color:black;
+}
+.testo-free-hubspot{
+  font-size: 15px;
+  color:black;
+  padding-top: 20px;
 }
