@@ -242,7 +242,7 @@ h1{
 }
 .col-img .btn-orange{
   width: 100px;
-  margin-top: 30px;
+  margin-top: 150px;
   font-size: 10px;
   line-height: 15px;
   text-align: center;
@@ -380,7 +380,7 @@ h1{
 }
 .colonna .btn-orange{
   width: 100px;
-  margin: auto;
+  margin:20px auto;
   line-height: 15px;
   text-align: center;
 }
@@ -461,13 +461,15 @@ h1{
 /* inizio container white */
 .container-white{
   width: 100%;
+  background-color:white;
   /* height: 600px; */
 }
+
 .contained-white{
   width: 800px;
   /* height: 600px; */
   margin:auto;
-  background-color:white;
+
 }
 .quadrato-customers{
   width:300px;
@@ -517,16 +519,19 @@ h1{
   font-weight: bold;
   text-align: center;
   margin-top:30px;
+  margin-bottom: 30px;
 }
 .testo-start-growing{
   font-size:10px;
   font-weight: bold;
   text-align: center;
-  margin:20px 70px;
 }
-
-.GetHubspotFree a{
-  height: 100px;
+.GetHubspotFree{
+  margin:50px auto;
+  text-align: center;
+}
+.GetHubspotFree .btn-orange{
+  padding:20px;
 }
 .quadrato-woman{
   width: 400px;
@@ -545,25 +550,26 @@ footer{
   background-color:#2D3E50;
   width: 100%;
 }
-.col-footer{
+.rettangolo-footer{
   width: 800px;
   margin:auto;
 }
-.colonna{
-  background-color:#2D3E50;
-  width:200px;
+.rettangolo{
+  width: 200px;
+  margin: auto;
 }
-.colonna h6{
+.rettangolo h6{
   color:white;
   margin-top:20px;
 }
-.colonna li{
+.rettangolo li{
   color:white;
   font-size:10px;
   margin-top:15px;
+  display:block;
 }
 
-.col-footer hr{
+.rettangolo-footer hr{
   margin-top:30px;
 }
 .lingue{
@@ -577,18 +583,21 @@ footer{
 }
 
 .logo-footer img{
-  width: 5%;
-  margin-top:20px;
+  width:50%;
+  padding-top:10px;
   margin-left:10px;
 }
 .logo-footer small{
   font-size: 10px;
   color:white;
+  padding-top:10px;
+  margin-left:10px;
 }
 .policy li{
   color:white;
   font-size: 10px;
 }
 .policy ul{
-  margin-right: 0;
+  padding-top: 10px;
+  padding-right:20px;
 }
