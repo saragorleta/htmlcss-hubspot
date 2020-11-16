@@ -550,8 +550,45 @@ footer{
   margin:auto;
 }
 .colonna{
+  background-color:#2D3E50;
   width:200px;
 }
-hr footer{
-  margin:30px 0;
+.colonna h6{
+  color:white;
+  margin-top:20px;
+}
+.colonna li{
+  color:white;
+  font-size:10px;
+  margin-top:15px;
+}
+
+.col-footer hr{
+  margin-top:30px;
+}
+.lingue{
+  color: white;
+  font-size:10px;
+  text-align: center;
+  padding-top: 20px;
+}
+.lingue li{
+  padding-right: 20px;
+}
+
+.logo-footer img{
+  width: 5%;
+  margin-top:20px;
+  margin-left:10px;
+}
+.logo-footer small{
+  font-size: 10px;
+  color:white;
+}
+.policy li{
+  color:white;
+  font-size: 10px;
+}
+.policy ul{
+  margin-right: 0;
 }
